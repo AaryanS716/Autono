@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.class{
+    padding: 80px;
+}
+body{
+    cursor: pointer;
+}
+header{
+    background-color: rgb(212 212 212);
+    color: rgb(38 38 38);
+}
+ul{
+    list-style-type:none;
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(85, 68, 68);
+    text-align: center;
+    padding: 14px 16px;  
+    background-color: none; 
+}
+li a:hover{
+    color: rgb(73,70,71);
+    background-color: rgb(245,234,237);
+    border-radius: 12px;
+}
+h4 a{
+    font-size: 28px;
+    margin-left: 165px;
+    align-self: baseline;
+}
+h1 a{
+    color: rgb(95, 80, 80);
+    font-family: serif;
+    font-size: 32px;   
+}
+#home{
+    background-color: white;
+    color: black;
+}
+section{
+    margin: 0px;
+    min-height: 100vh;
+}
+#car{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: serif;
+    font-size: 29px;
+    font-weight: 0px;
+    text-align: left;
+    img{
+        float: right;   
+    };
+}
+#map{
+    background-color: white;
+    color: black;
+    img{
+        float: left;   
+    };
+}
+h6{
+    padding: 20px;
+    font-family: serif;
+    font-size: 27px;
+    font-weight: 0px;
+    text-align: right;
+}
+h5, h3{
+    padding: 20px;
+    font-family: serif;
+    font-size: 27px;
+    font-weight: 0px;
+    text-align: left;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    bottom: 0;
+    width: 100%;
+}
+footer a{
+    color: rgba(255, 255, 255, 0.853);
+    font:italic;
+    font-size: 23px;
+    padding: 25px;
+}
+footer a:hover{
+    color: rgb(220, 8, 220);
+    background-color: rgb(245,234,237);
+    border-radius: 12px;
+}

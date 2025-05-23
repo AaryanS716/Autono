@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.class {
+    padding: 80px;
+}
+body {
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(196, 161, 161);
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover {
+    color: rgb(73, 70, 71);
+    background-color: rgb(245, 234, 237);
+    border-radius: 12px;
+}
+h4 a {
+    font-size: 28px;
+    margin-left: 165px;
+    align-self: baseline;
+}
+h1 a {
+    color: rgb(196, 161, 161);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+}
+section {
+    margin: 0px;
+    min-height: 100vh;
+}
+#home {
+    background-color: black;
+    color: white;
+}
+#mission {
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    font: italic;
+    font-size: 23px;
+    padding: 25px;
+}
+footer a{
+    color: rgba(255, 255, 255, 0.853);
+    font:italic;
+    font-size: 23px;
+    padding: 25px;
+}
+footer a:hover{
+    color: rgb(220, 8, 220);
+    background-color: rgb(245,234,237);
+    border-radius: 12px;
+}
